@@ -1,0 +1,15 @@
+names:
+- Astrocitoma
+- Cerebro Saudavel
+- Gliobastoma
+- Isquemia-aguda
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: brain-diseases
+  url: https://universe.roboflow.com/gabriel-de-oliveira-salles/brain-diseases/dataset/5
+  version: 5
+  workspace: gabriel-de-oliveira-salles
+test: ../test/images
+train: Brain-diseases-5/train/images
+val: Brain-diseases-5/valid/images
