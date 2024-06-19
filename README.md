@@ -13,7 +13,7 @@
 <h3 align="center">Brain Disease Detector</h3>
 
   <p align="center">
-    A food-related full-stack social media platform
+    Detect brain diseases using YOLOv8 with high accuracy from MRI 
     <br />
     <br />
     <a href="https://github.com/skald1311/cooksta/issues">Report Bug</a>
@@ -25,14 +25,14 @@
 <br/>
 
 [![React][React-badge]][React-url]
-[![JavaScript][Javascript-badge]][Javascript-url]
+[![TypeScript][Typescript-badge]][Typescript-url]
+[![AWS-Lambda][AWS-Lambda-badge]][AWS-Lambda-url]
+[![AWS-APIG][AWS-APIG-badge]][AWS-APIG-url]
+[![Docker][Docker-badge]][Docker-url]
 [![HTML5][HTML5-badge]][HTML5-url]
 [![CSS][CSS-badge]][CSS-url]
-[![Styled-components][Styled-Component-badge]][Styled-Component-url]
-[![Netlify][Netlify-badge]][Netlify-url]
-[![Python][Python-badge]][Python-url]
-[![Django][Django-badge]][Django-url]
-[![Vercel][Vercel-badge]][Vercel-url]
+[![Tailwind][Tailwind-badge]][Tailwind-url]
+
 
 
 <!-- TABLE OF CONTENTS -->
@@ -61,40 +61,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-After many disappointments with food not matching its menu picture, I decided to develop a food-focused social media app. This platform enables users to upload photos of food along with relevant information such as names and locations, ensuring others won't encounter similar disappointments.
+![image](https://github.com/skald1311/brain-disease-detector/assets/84189062/99c6b07b-71fb-4edd-832f-3849b6c01314)
 
-*Key Features:*
-
-1. Authentication (sign up, log in, log out): Utilizes a context API to provide every component with knowledge of the current user's authentication status. The app restricts access to non-signed-in users, redirecting them to the login/signup page. Upon logging in, the frontend sends the username and password to the backend for authentication. Signing up involves sending new account data to be added to the database.
-   ![image](https://github.com/skald1311/cooksta/assets/84189062/8f433782-46b3-41cc-84f0-75fbdd137696)
-
-3. Feed: To enhance user experience, fake data from real restaurants/people is integrated to simulate activity. Although an infinite scroll feature is not implemented due to the limited data, each post on the feed offers interactions such as redirection to the user's profile page by clicking the username, and to the post page by clicking the post image. Liking a post is facilitated by tapping the heart symbol.
-   ![image](https://github.com/skald1311/cooksta/assets/84189062/c7f982b6-1049-4f2a-9b96-feec9419eb74)
-
-5. Ability to create new posts and like posts: The frontend sends post information to the backend for database inclusion, updating the user's post array with the post ID. Liking a post is accomplished by sending a request from the frontend, with the backend updating the post's like count.
-   ![image](https://github.com/skald1311/cooksta/assets/84189062/5d81981b-4323-4dc1-a6a8-ba760d6160d9)
-
-
-7. View your own and others' profiles: Features include hover-over functionality to display like counts on posts, and tapping on a photo leads to the full post.
-   ![image](https://github.com/skald1311/cooksta/assets/84189062/9a25971f-5692-4835-a4b3-7f8a18941d23)
-  ![image](https://github.com/skald1311/cooksta/assets/84189062/64c168bd-82a6-427a-8bc1-a791d0f04419)
-![image](https://github.com/skald1311/cooksta/assets/84189062/c9e9462b-18ca-40ce-833e-c78ad390471a)
-
-
-9. Account updating features (changing password, profile picture, and description): Utilizes the same backend communication pattern as previous features, enabling users to modify account details seamlessly.
-    ![image](https://github.com/skald1311/cooksta/assets/84189062/b18758b2-b24a-4a77-8963-67bc0206e97d)
-
-
-11. Dark mode and light mode: Dark mode and light mode: Implemented using CSS variables adjusted via the class attribute in the HTML tag, allowing for a dynamic change in appearance.
-    ![image](https://github.com/skald1311/cooksta/assets/84189062/8be9e969-7fb7-464f-aec8-1dcd135f3149)
-    ![image](https://github.com/skald1311/cooksta/assets/84189062/826c8931-13c6-418e-a221-7b8c95801fbe)
-
-
-
-*Application Architecture:*
-The frontend is constructed using ReactJS and JavaScript, while the backend Django functions as an API facilitating communication with the hosted MongoDB Atlas cluster. For production hosting, the frontend is deployed on Netlify, and Vercel hosts the backend. Due to complications with SSL certificate, I decided not to host the backend on an AWS EC2 instance anymore. Analyzing the queries, I noticed repetitive querying of the username field, prompting me to create an index for it to enhance query efficiency. Upon comparing query times before and after implementing the index, there was an average reduction of 55%, with query times dropping from 900ms to 400ms.
-
-The inspiration for this app was also drawn from a video game called "Dave the Diver."
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,6 +189,8 @@ Project Link: [cooksta.netlify.app](https://cooksta.netlify.app/)
 [linkedin-url]: https://www.linkedin.com/in/duongmhoang/
 [Javascript-badge]: https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat
 [Javascript-url]: https://www.javascript.com/
+[Typescript-badge]: https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=flat
+[Typescript-url]: https://www.typescriptlang.org
 [Python-badge]: https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=flat
 [Python-url]: https://www.python.org
 [HTML5-badge]: https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat
@@ -245,5 +215,13 @@ Project Link: [cooksta.netlify.app](https://cooksta.netlify.app/)
 [ReactRouter-url]: https://reactrouter.com/en/main
 [Vercel-badge]: https://img.shields.io/badge/Vercel-000?logo=vercel&logoColor=fff&style=flat
 [Vercel-url]: https://www.vercel.com
+[Tailwind-badge]: https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=fff&style=flat
+[Tailwind-url]: https://tailwindcss.com
+[Docker-badge]: https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=flat
+[Docker-url]: https://www.docker.com
+[AWS-Lambda-badge]: https://img.shields.io/badge/AWS%20Lambda-F90?logo=awslambda&logoColor=fff&style=flat
+[AWS-Lambda-url]: https://aws.amazon.com/pm/lambda
+[AWS-APIG-badge]: https://img.shields.io/badge/Amazon%20API%20Gateway-FF4F8B?logo=amazonapigateway&logoColor=fff&style=flat
+[AWS-APIG-url]: https://aws.amazon.com/api-gateway/
 
 <!--https://badges.pages.dev-->
