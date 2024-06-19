@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/skald1311/cooksta">
-    <img src="https://github.com/skald1311/brain-disease-detector/assets/84189062/80312060-3f41-4b52-b6bc-25d35f0b548c" alt="Logo" width="100" height="100">
+    <img src="https://github.com/skald1311/brain-disease-detector/assets/84189062/80312060-3f41-4b52-b6bc-25d35f0b548c" alt="Logo" width="200" height="200">
   </a>
 
 
