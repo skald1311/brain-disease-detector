@@ -16,9 +16,9 @@
     Detect brain diseases using YOLOv8 with high accuracy from MRI 
     <br />
     <br />
-    <a href="https://github.com/skald1311/cooksta/issues">Report Bug</a>
+    <a href="https://github.com/skald1311/brain-disease-detector/issues">Report Bug</a>
     ·
-    <a href="https://github.com/skald1311/cooksta/issues">Request Feature</a>
+    <a href="https://github.com/skald1311/brain-disease-detector/issues">Request Feature</a>
   </p>
 </div>
 
@@ -99,53 +99,6 @@ Once you've obtained db_connection.py, you can follow these next steps
 
    ![image](https://user-images.githubusercontent.com/84189062/210023664-4d06ef4a-71a7-444d-9778-bf21c8ed30ae.png)
   
-  
-3. Extract the file
-   ```sh
-   Make sure all of the files are in the same folder!!!
-   ```
-
-4. Paste the db_connection.py file into the "backend" folder
-
-5. Go into the "backend" folder
-   ```sh
-   cd backend
-   ```
-
-6. Create a virtual environment and activate it
-   ```sh
-   python -m venv .venv
-   . .venv/Scripts/activate
-   ```
-   Some systems might be different (python3 rather python; . .venv/bin/activate rather than . .venv/Scripts/activate)
-
-7. Install backend dependencies 
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-7. Run the server
-   ```sh
-   python manage.py runserver
-   ```
-   In the terminal, you'll see a link, but it's not for the actual app. It's just for the backend server, so please refrain from clicking on it.
-
-8. Open up a new terminal and cd into the "frontend" folder
-   ```sh
-   cd frontend
-   ```
-   
-9. Install frontend dependencies
-   ```sh
-   npm i
-   ```
-
-10. Run frontend server
-   ```sh
-   npm run dev
-   ```
-  You'll find a link in the terminal. Hold down Control and left-click on the link to access it. Enjoy!
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -170,7 +123,7 @@ Don't forget to give the project a star! Thanks again!
 
 Duong Hoang - [LinkedIn](https://www.linkedin.com/in/duongmhoang/)
 
-Project Link: [cooksta.netlify.app](https://cooksta.netlify.app/)
+Project Link: [Github](https://github.com/skald1311/brain-disease-detector)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
