@@ -84,21 +84,36 @@
 <!-- GETTING STARTED -->
 ## Installation
 
-**LIVE DEMO [HERE](https://cooksta.netlify.app/)**
+**For local use, please download the files in [here](https://github.com/skald1311/brain-disease-detector/releases/tag/v1.0.0)**
 
-**Since the application's data resides on MongoDB Atlas, you'll require the connection URL to access the database. However, as the URL contains my account's password, for security reasons, I haven't included the db_connection.py file. If you wish to host it locally, please reach out to me via LinkedIn, and I'll assist you in obtaining your own db_connection.py**
+**NOTE: Since the project uses AWS Lambda and API Gateway, local use cannot use the same, therefore you won't have a frontend**
 
-Once you've obtained db_connection.py, you can follow these next steps
+Once you've obtained the files, you can follow these next steps
 
-1. Click the green button
+1. Make a new folder and put these files in
+   ```sh
+   model.pt
+   yolo_inference.py
+   ```
 
-  ![image](https://user-images.githubusercontent.com/84189062/210023644-49f6ee47-b8aa-479d-b192-c9985ef913cd.png)
+2. Optional: Create a virtual environment and activate it
+   ```sh
+   python -m venv .venv
+   . .venv/Scripts/activate
+   ```
+   Some systems might be different (python3 rather python; . .venv/bin/activate rather than . .venv/Scripts/activate)
    
-   
-2. Download ZIP
+3. Install ultralytics
+   ```sh
+   pip install ultralytics
+   ```
 
-   ![image](https://user-images.githubusercontent.com/84189062/210023664-4d06ef4a-71a7-444d-9778-bf21c8ed30ae.png)
-  
+4. Open yolo_inference.py and change the <image_file_path> to your MRI scan image path
+   ```sh
+   from ultralytics import YOLO
+   model = YOLO('model.pt')
+   model.predict('<image_file_path>', save=True)
+   ```
 
 <!-- CONTRIBUTING -->
 ## Contributing
