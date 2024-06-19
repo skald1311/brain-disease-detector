@@ -69,22 +69,14 @@
 
 <!-- Built With -->
 ## Built With
-*Frontend:*
-
 * [![React][React-badge]][React-url]
-* [![JavaScript][Javascript-badge]][Javascript-url]
+* [![TypeScript][Typescript-badge]][Typescript-url]
+* [![AWS-Lambda][AWS-Lambda-badge]][AWS-Lambda-url]
+* [![AWS-APIG][AWS-APIG-badge]][AWS-APIG-url]
+* [![Docker][Docker-badge]][Docker-url]
 * [![HTML5][HTML5-badge]][HTML5-url]
 * [![CSS][CSS-badge]][CSS-url]
-* [![Styled-components][Styled-Component-badge]][Styled-Component-url]
-* [![Netlify][Netlify-badge]][Netlify-url]
-<br/>
-
-*Backend:*
-
-* [![Python][Python-badge]][Python-url]
-* [![Django][Django-badge]][Django-url]
-* [![MongoDB][Mongo-badge]][Mongo-url]
-* [![Vercel][Vercel-badge]][Vercel-url]
+* [![Tailwind][Tailwind-badge]][Tailwind-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
