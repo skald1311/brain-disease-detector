@@ -60,6 +60,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![New Project](https://github.com/skald1311/brain-disease-detector/assets/84189062/67400690-b61e-4f70-93f4-8dc8a61ad2a9)
+
 ![image](https://github.com/skald1311/brain-disease-detector/assets/84189062/99c6b07b-71fb-4edd-832f-3849b6c01314)
 
 
