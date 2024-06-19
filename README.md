@@ -13,7 +13,7 @@
 <h3 align="center">Brain Disease Detector</h3>
 
   <p align="center">
-    Detect brain diseases using YOLOv8 with high accuracy from MRI 
+    Detect brain diseases using YOLOv8 with high accuracy from brain MRI scans 
     <br />
     <br />
     <a href="https://github.com/skald1311/brain-disease-detector/issues">Report Bug</a>
