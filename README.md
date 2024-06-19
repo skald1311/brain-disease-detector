@@ -30,7 +30,6 @@
 [![AWS-APIG][AWS-APIG-badge]][AWS-APIG-url]
 [![Docker][Docker-badge]][Docker-url]
 [![HTML5][HTML5-badge]][HTML5-url]
-[![CSS][CSS-badge]][CSS-url]
 [![Tailwind][Tailwind-badge]][Tailwind-url]
 
 
@@ -75,7 +74,6 @@
 * [![AWS-APIG][AWS-APIG-badge]][AWS-APIG-url]
 * [![Docker][Docker-badge]][Docker-url]
 * [![HTML5][HTML5-badge]][HTML5-url]
-* [![CSS][CSS-badge]][CSS-url]
 * [![Tailwind][Tailwind-badge]][Tailwind-url]
 
 
