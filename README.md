@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/skald1311/cooksta">
+  <a href="https://github.com/skald1311/brain-disease-detector">
     <img src="https://github.com/skald1311/brain-disease-detector/assets/84189062/80312060-3f41-4b52-b6bc-25d35f0b548c" alt="Logo" width="200" height="200">
   </a>
 
